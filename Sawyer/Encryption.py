@@ -1,22 +1,23 @@
+print("put 2 to 3 characters in then press enter and then,repeat 3 more times.HAS TO INCLUDE A I ")
+
+print("")
+
 base1 = input("")
 base2 = input("")
 base3 = input("")
 base4 = input("")
+cbase1 = len(base1)
+cbase2 = len(base2)
+cbase3 = len(base3)
+cbase4 = len(base4)
 
-print("Encoding loading.")
+print("")
 
-print("1rst Encrytption")
-Encryption = print(base1 + 'a' + '1', base2 + 'b' + '1',base3 + 'c' + '1',base4 + 'c' + '1')
+Ebase1 = print(base1.replace(I,cbase1))
+Ebase2 = print()
+Ebase3 = print()
+Ebase4 = print()
 
-Ebase1= "l0" + base1
-Ebase2= "13" + base2
-Ebase3= "90" + base3
-Ebase4= "12" + base4
+print("")
+print(Ebase1)
 
-print("Encoding loading.")
-
-print("2nd Encrytption")
-Encryption2 = print(Ebase1+ 'a' + '1', Ebase2 + 'b' + '1',Ebase3 + 'c' + '1',Ebase4 + 'c' + '1' )
-
-print(Encryption)
-print(Encryption2)
