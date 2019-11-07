@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.grey {
+	color: grey;
+}
+
+h3 {
+	color: red;
+}
+
+.cursive{
+	font-family: cursive;
+}
+.body-text{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
