@@ -1,2 +1,0 @@
-com/cporter/first_mod_again/FirstModAgain.java
- com.cporter.first_mod_again.FirstModAgain
