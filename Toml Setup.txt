@@ -1,0 +1,26 @@
+
+modLoader="javafml"
+
+loaderVersion="[35,)"
+
+license="All rights reserved"
+
+[[mods]]
+
+modId="MODID"
+
+version="1.0"
+
+displayName="MOD NAME"
+
+displayURL=""
+
+logoFile="examplemod.png"
+
+credits="INSERT CREDITS"
+
+authors="Croizzant"
+
+description='''
+
+'''
