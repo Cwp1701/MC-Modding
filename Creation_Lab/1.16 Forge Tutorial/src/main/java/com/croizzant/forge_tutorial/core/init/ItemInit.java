@@ -1,6 +1,7 @@
 package com.croizzant.forge_tutorial.core.init;
 
 import com.croizzant.forge_tutorial.ForgeTutorial;
+import com.croizzant.forge_tutorial.common.items.SpecialItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,6 +16,9 @@ public class ItemInit {
 
     public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("ruby",
             () -> new Item(new Item.Properties().group(ItemGroup.COMBAT)));
+
+    public static final RegistryObject<SpecialItem> SPECIAL_ITEm = ITEMS.register("special_item",
+            () -> new SpecialItem(new Item.Properties().group(ItemGroup.MISC)));
 
     // block items
     public static final RegistryObject<BlockItem> BUTTER_BLOCK = ITEMS.register("butter_block", () ->

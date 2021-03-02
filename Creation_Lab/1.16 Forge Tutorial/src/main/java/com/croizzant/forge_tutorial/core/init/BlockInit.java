@@ -20,6 +20,7 @@ public class BlockInit {
                     .hardnessAndResistance(12f, 25f)
                     .harvestTool(ToolType.PICKAXE)
                     .harvestLevel(2)
-                    .sound(SoundType.METAL)));
+                    .sound(SoundType.METAL)
+                    .setRequiresTool()));
 
 }

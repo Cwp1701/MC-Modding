@@ -1,4 +1,6 @@
 {
   "item.forgetutorial.ruby": "Ruby",
-  "block.forgetutorial.butter_block": "Butter Block"
+  "item.forgetutorial.special_item": "Idiot Sandwich",
+  "block.forgetutorial.butter_block": "Butter Block",
+  "tooltip.special_item.hold_shift": "\u00A7eHold Shift ya idiot!!!"
 }
